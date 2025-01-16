@@ -7,4 +7,13 @@ layout:
 - go.kubebuilder.io/v4
 projectName: tmp
 repo: github.com/mrsimonemms/kubemirror
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: kubemirror.simonemms.com
+  kind: Resource
+  path: github.com/mrsimonemms/kubemirror/api/v1alpha1
+  version: v1alpha1
 version: "3"
