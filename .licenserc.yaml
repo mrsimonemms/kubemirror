@@ -7,9 +7,10 @@ header:
     - dist
     - tmp
     - LICENSE
+    - PROJECT
     - .*
     - "go.*"
-    - "**/*.{json,md,yml,yaml}"
+    - "**/*.{json,md,yml,yaml,txt}"
     - "**/.gitkeep"
   comment: on-failure
   language:
