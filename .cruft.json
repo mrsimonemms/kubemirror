@@ -1,0 +1,17 @@
+{
+  "template": "https://github.com/mrsimonemms/new",
+  "commit": "a67c31116405ceaed9baf89656752f2e93bfc844",
+  "checkout": "main",
+  "context": {
+    "cookiecutter": {
+      "project_name": "kubemirror",
+      "description": "Mirror Kubernetes resources definitions",
+      "author": "Simon Emms <simon@simonemms.com>",
+      "_template": "https://github.com/mrsimonemms/new"
+    }
+  },
+  "directory": "blank",
+  "skip": [
+    ".git"
+  ]
+}
